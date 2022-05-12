@@ -25,6 +25,8 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 #***************************************************************************************
+//A new change by Evan. delete later. 5-12-2022
+
 if(!$_SESSION['STAFF_ID'] && !$_SESSION['STUDENT_ID'] && (strpos($_SERVER['PHP_SELF'],'index.php'))===false)
 	{
 		header('Location: index.php');
